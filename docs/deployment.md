@@ -10,7 +10,7 @@ process only serves the built SPA. All user data lives in cookies on the device.
 Run as root on the appliance:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/nebuloss/kin-app/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/nebuloss/kin_app/main/install.sh | sh
 ```
 
 The app is then available on **http://localhost:3000** — point a reverse proxy
@@ -24,7 +24,7 @@ The app is then available on **http://localhost:3000** — point a reverse proxy
 | `APP_USER` | `kin` | System user (created if missing) |
 | `APP_PORT` | `3000` | HTTP port |
 | `NODE_VERSION` | `22` | Node.js major version (Debian only) |
-| `GH_REPO` | `nebuloss/kin-app` | GitHub `owner/repo` to pull releases from |
+| `GH_REPO` | `nebuloss/kin_app` | GitHub `owner/repo` to pull releases from |
 
 ### What the script does
 
