@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Respect the iOS/Android safe areas everywhere the layout touches a screen edge. */
+html, body, #root {
+  height: 100%;
+}
+body {
+  overscroll-behavior-y: none;
+}
