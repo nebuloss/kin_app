@@ -121,7 +121,7 @@ export default function PlayersPage() {
             onChange={e => setImportText(e.target.value)}
             rows={6}
             autoFocus
-            placeholder={'Pablo\nEnguerrand\n- Mahé\n3. Stan\n…'}
+            placeholder={'Alice\nBob\n- Charlie\n3. Dana\n…'}
             className="w-full resize-y rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 px-3 py-2.5 text-sm text-slate-900 dark:text-slate-100 placeholder:text-slate-400 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/30"
           />
           <div className="flex items-center gap-2">
