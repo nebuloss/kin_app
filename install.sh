@@ -6,7 +6,7 @@
 # swaps in the new build, refreshes deps, and restarts the service).
 #
 # Usage (run as root on the appliance):
-#   curl -fsSL https://raw.githubusercontent.com/nebuloss/kin-app/master/install.sh | sh
+#   curl -fsSL https://raw.githubusercontent.com/nebuloss/kin-app/main/install.sh | sh
 # Override defaults via env: APP_DIR, APP_USER, APP_PORT, NODE_VERSION, GH_REPO
 #
 # Supported systems: Alpine Linux (OpenRC), Debian/Ubuntu/Raspbian (systemd)

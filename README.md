@@ -62,7 +62,7 @@ Tag a release and let CI build the tarball, then run the install script on the
 appliance. See [docs/deployment.md](docs/deployment.md).
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/nebuloss/kin-app/master/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/nebuloss/kin-app/main/install.sh | sh
 ```
 
 ---

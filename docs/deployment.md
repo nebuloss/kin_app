@@ -10,7 +10,7 @@ process only serves the built SPA. All user data lives in cookies on the device.
 Run as root on the appliance:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/nebuloss/kin-app/master/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/nebuloss/kin-app/main/install.sh | sh
 ```
 
 The app is then available on **http://localhost:3000** — point a reverse proxy
